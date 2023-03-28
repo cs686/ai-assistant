@@ -1,4 +1,7 @@
 # Updater Log
+## v0.0.6
+- feat: 06
+
 ## v0.0.5
 - feat: 05
 ## v0.0.4
