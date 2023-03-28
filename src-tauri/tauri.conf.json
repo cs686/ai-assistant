@@ -89,7 +89,7 @@
       "active": true,
       "dialog": true,
       "endpoints": ["https://cs686.github.io/ai-assistant/install.json"],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDZGQUQ1MTQzREQwQjBDMDkKUldRSkRBdmRRMUd0YnlPWFlycjhmRXdKSFMydnZEbHlrZWpaSFc2TXhOMkVyMy83dU9TOGcvZUIK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQyRkUwMkY1QTE3QkM3QjYKUldTMngzdWg5UUwrUW5ybkNoVzZaczRzQ0xMUFpFRk9wS3RzZmFxTUhFSk9UWDF2cVY5SStFdG8K"
     },
     "windows": [
       {
