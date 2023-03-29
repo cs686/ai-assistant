@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.11
+- feat: fix updater
+
 ## v0.0.10
 - feat: fix apt-get lib
 
