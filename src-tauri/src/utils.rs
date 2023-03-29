@@ -1,4 +1,6 @@
 use tauri::Manager;
+use clipboard::ClipboardProvider;
+use clipboard::ClipboardContext;
 
 use crate::APP_HANDLE;
 
