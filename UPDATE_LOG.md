@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.10
+- feat: fix apt-get lib
+
 ## v0.0.9
 - feat: fix clipboard
 
