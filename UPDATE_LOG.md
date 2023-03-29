@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.9
+- feat: fix clipboard
+
 ## v0.0.8
 - feat: 08
 
