@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.12
+- feat: fix i18n bug
+
 ## v0.0.11
 - feat: fix updater
 
