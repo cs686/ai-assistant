@@ -9,7 +9,7 @@ import { Provider as StyletronProvider } from 'styletron-react'
 import { BaseProvider } from 'baseui-sd'
 import { Input } from 'baseui-sd/input'
 import { createForm } from '../components/Form'
-// import formStyles from 'inline:../components/Form/index.module.css'
+import formStyles from '../components/Form/index.module.css?inline'
 import { Button } from 'baseui-sd/button'
 import './index.css'
 import { TranslateMode, Provider, APIModel } from '../content_script/translate'
@@ -537,7 +537,7 @@ export function Settings(props: IPopupProps) {
                 minWidth: isDesktopApp ? 450 : 400,
             }}
         >
-            {/* <style>{formStyles}</style> */}
+            <style>{formStyles}</style>
             <StyletronProvider value={engine}>
                 <BaseProvider theme={theme}>
                     <nav
