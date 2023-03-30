@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.13
+- fix: textarea bug
+
 ## v0.0.12
 - feat: fix i18n bug
 
