@@ -78,6 +78,8 @@ pub fn get_selected_text() -> Result<String, Box<dyn std::error::Error>> {
         .output()
         .expect("failed to execute get-selected-text.applescript");
 
+    info!(" execute get-selected-text result {:#?}", output);
+
     // check exit code
     if output.status.success() {
         // get output content
