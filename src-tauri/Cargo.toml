@@ -19,6 +19,7 @@ serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.2", features = ["clipboard-all", "dialog-message", "fs-read-dir", "fs-read-file", "fs-write-file", "global-shortcut-all", "notification-all", "shell-open", "system-tray", "updater", "window-all", "windows7-compat"] }
 sysinfo = "0.28.4"
 tauri-plugin-single-instance = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev", version = "0.1.0" }
+tauri-plugin-log = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev" }
 once_cell = "1.17.1"
 clipboard = "0.5.0"
 enigo = {git = "https://github.com/enigo-rs/enigo"}
@@ -27,6 +28,7 @@ mouse_position = "0.1.3"
 cpuid = "0.1.1"
 parking_lot = "0.12.1"
 window-shadows = "0.2.1"
+log = "0.4.17"
 
 [target.'cfg(target_os = "macos")'.dependencies]
 cocoa = "0.24"

@@ -13,6 +13,7 @@ mod ocr;
 use std::sync::atomic::AtomicBool;
 use sysinfo::{CpuExt, System, SystemExt};
 use parking_lot::Mutex;
+use tauri_plugin_log::{LogTarget};
 
 use crate::config::get_config_content;
 use crate::window::{MAIN_WIN_NAME, show_main_window_with_selected_text, get_main_window_always_on_top, set_main_window_always_on_top};
@@ -61,6 +62,11 @@ fn main() {
         *CPU_VENDOR.lock() = vendor_id;
     }
     tauri::Builder::default()
+        .plugin(tauri_plugin_log::Builder::default().targets([
+            LogTarget::LogDir,
+            LogTarget::Stdout,
+            LogTarget::Webview,
+        ]).build())
         .plugin(tauri_plugin_single_instance::init(|app: &AppHandle, argv: Vec<String>, cwd: String| {
             println!("{}, {argv:?}, {cwd}", app.package_info().name);
             Notification::new(&app.config().tauri.bundle.identifier)

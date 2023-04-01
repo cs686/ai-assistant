@@ -96,7 +96,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 700,
+        "height": 800,
         "width": 600,
         "minWidth": 450,
         "minHeight": 600,

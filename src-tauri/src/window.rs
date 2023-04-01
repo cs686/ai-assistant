@@ -10,6 +10,8 @@ use window_shadows::set_shadow;
 use mouse_position::mouse_position::Mouse;
 use std::sync::atomic::Ordering;
 
+use log::info;
+
 pub const MAIN_WIN_NAME: &str = "main";
 
 fn get_mouse_location() -> Result<(i32, i32), String> {
@@ -54,10 +56,13 @@ pub fn show_main_window_with_selected_text() {
             "".to_string()
         }
     };
+    info!("the selected text is {}", selected_text);
     if !selected_text.is_empty() {
+        info!("the selected text not empty");
         show_main_window(false);
         utils::send_text(selected_text);
     } else {
+        info!("the selected empty");
         show_main_window(true);
     }
 }
