@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.17
+- fix: add log debug
+
 ## v0.0.16
 - fix: add log dir
 
