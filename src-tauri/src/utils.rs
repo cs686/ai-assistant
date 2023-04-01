@@ -3,6 +3,7 @@ use clipboard::ClipboardProvider;
 use clipboard::ClipboardContext;
 
 use crate::APP_HANDLE;
+use log::info;
 
 #[cfg(target_os = "windows")]
 pub fn copy() {
@@ -69,6 +70,8 @@ pub fn get_selected_text() -> Result<String, Box<dyn std::error::Error>> {
     let apple_script = APP_HANDLE.get().unwrap().path_resolver()
       .resolve_resource("resources/get-selected-text.applescript")
       .expect("failed to resolve ocr binary resource");
+
+    info!("the command path is {:#?}", apple_script.as_os_str());
 
     let output = std::process::Command::new("osascript")
         .arg(apple_script)

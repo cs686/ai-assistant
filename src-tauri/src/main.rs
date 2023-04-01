@@ -11,6 +11,7 @@ mod window;
 mod ocr;
 
 use std::sync::atomic::AtomicBool;
+use log::info;
 use sysinfo::{CpuExt, System, SystemExt};
 use parking_lot::Mutex;
 use tauri_plugin_log::{LogTarget};
@@ -39,6 +40,7 @@ struct Payload {
 // if cfg macos
 #[cfg(target_os = "macos")]
 fn query_accessibility_permissions() -> bool {
+    info!("test mac os ++++++++++++ has trusted!");
     let trusted = macos_accessibility_client::accessibility::application_is_trusted_with_prompt();
     if trusted {
         print!("Application is totally trusted!");
@@ -86,6 +88,7 @@ fn main() {
                 window.set_decorations(false)?;
                 set_shadow(window, true).unwrap_or_default();
             }
+            info!("has query_accessibility_permissions {}", query_accessibility_permissions());
             if !query_accessibility_permissions() {
                 let window = app.get_window(MAIN_WIN_NAME).unwrap();
                 window.minimize().unwrap();
