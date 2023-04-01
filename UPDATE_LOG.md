@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.15
+- fix: add log
+
 ## v0.0.14
 - fix: textarea bug2
 
