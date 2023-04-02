@@ -1,0 +1,35 @@
+{
+  "version": "v0.0.20",
+  "notes": "- fix: move style out",
+  "pub_date": "2023-04-02T13:24:17.260Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUXNxQ3Zncy9mdlYxY21JcFkraW1TbjZEZjhhM29RWURqd1lOU3V0cGpuZTZwNmVpZTcyNGc1ZVdZTng2THQ2bVAyS2UxL0VpRjZlZ3Zyc0FaK0xoWHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNDQ3CWZpbGU6YWktYXNzaXN0YW50XzAuMC4yMF94NjRfZW4tVVMubXNpLnppcApmTjQ4YmsvVU56dkVDbTVTWnJlZ0RpMTNaTnZnK2hEQlhBemZFQjQ4SE01ZHVtL1I0cENDRG5FREQwSk9WbTA1SEhnNEJUenJlUmQ1cG9pWXZqOG5EQT09Cg==",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant_0.0.20_x64_en-US.msi.zip"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUXUxQ1VzYTNMVXg5RmlpQWZRbVg2YktXdTZ6Uit0cEhySUZXaHBiWlJNdC9RcmJqUDFuME9DL3l5OGRGa3hNYUNxVU5GdjZBM0M3L08wTkZySW1NL0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNDMyCWZpbGU6YWktYXNzaXN0YW50XzAuMC4yMF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKMHNTeXUyeDAxaitMN1hubzhCTnpObmZVK3VkWSt0V2t6M3c0NHZiZDhLcGdJcjY4U1MrcDMwRTRFaDBlby9EdUJpcmVYYVJRTjVEamtERTI0Q1d0Q1E9PQo=",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant_0.0.20_amd64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUWptNXpyZFRuWEE1SFIvWGVDcExCdm5SSUxZdGJyaHlxVVM5UVp4b1BpZHlOU0FtMDdyMkN2YUNwcFZGZlBZb2pEWVlxWExvU3FMM2cwSVAzSjhQaXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNzQ2CWZpbGU6YWktYXNzaXN0YW50LmFwcC50YXIuZ3oKOW1KTWRpNlZ5dDhuaXF5MnpGWHdKbHJQNXFvZDhJVXVFZ3BGWE9tdmowajlEaUw3b2lUcXpFdWpQVWVBUHZVMm1JRjlkWGhlRVpuMmhrV20yTnhCREE9PQo=",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUWptNXpyZFRuWEE1SFIvWGVDcExCdm5SSUxZdGJyaHlxVVM5UVp4b1BpZHlOU0FtMDdyMkN2YUNwcFZGZlBZb2pEWVlxWExvU3FMM2cwSVAzSjhQaXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNzQ2CWZpbGU6YWktYXNzaXN0YW50LmFwcC50YXIuZ3oKOW1KTWRpNlZ5dDhuaXF5MnpGWHdKbHJQNXFvZDhJVXVFZ3BGWE9tdmowajlEaUw3b2lUcXpFdWpQVWVBUHZVMm1JRjlkWGhlRVpuMmhrV20yTnhCREE9PQo=",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUWptNXpyZFRuWEE1SFIvWGVDcExCdm5SSUxZdGJyaHlxVVM5UVp4b1BpZHlOU0FtMDdyMkN2YUNwcFZGZlBZb2pEWVlxWExvU3FMM2cwSVAzSjhQaXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNzQ2CWZpbGU6YWktYXNzaXN0YW50LmFwcC50YXIuZ3oKOW1KTWRpNlZ5dDhuaXF5MnpGWHdKbHJQNXFvZDhJVXVFZ3BGWE9tdmowajlEaUw3b2lUcXpFdWpQVWVBUHZVMm1JRjlkWGhlRVpuMmhrV20yTnhCREE9PQo=",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUXUxQ1VzYTNMVXg5RmlpQWZRbVg2YktXdTZ6Uit0cEhySUZXaHBiWlJNdC9RcmJqUDFuME9DL3l5OGRGa3hNYUNxVU5GdjZBM0M3L08wTkZySW1NL0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNDMyCWZpbGU6YWktYXNzaXN0YW50XzAuMC4yMF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKMHNTeXUyeDAxaitMN1hubzhCTnpObmZVK3VkWSt0V2t6M3c0NHZiZDhLcGdJcjY4U1MrcDMwRTRFaDBlby9EdUJpcmVYYVJRTjVEamtERTI0Q1d0Q1E9PQo=",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant_0.0.20_amd64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMngzdWg5UUwrUXNxQ3Zncy9mdlYxY21JcFkraW1TbjZEZjhhM29RWURqd1lOU3V0cGpuZTZwNmVpZTcyNGc1ZVdZTng2THQ2bVAyS2UxL0VpRjZlZ3Zyc0FaK0xoWHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwNDQxNDQ3CWZpbGU6YWktYXNzaXN0YW50XzAuMC4yMF94NjRfZW4tVVMubXNpLnppcApmTjQ4YmsvVU56dkVDbTVTWnJlZ0RpMTNaTnZnK2hEQlhBemZFQjQ4SE01ZHVtL1I0cENDRG5FREQwSk9WbTA1SEhnNEJUenJlUmQ1cG9pWXZqOG5EQT09Cg==",
+      "url": "https://github.com/cs686/ai-assistant/releases/download/v0.0.20/ai-assistant_0.0.20_x64_en-US.msi.zip"
+    }
+  }
+}
