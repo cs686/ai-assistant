@@ -1,5 +1,8 @@
 # Updater Log
 
+## v0.0.20
+- fix: move style out
+
 ## v0.0.19
 - fix: add log debug3
 
